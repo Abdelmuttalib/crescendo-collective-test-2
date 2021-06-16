@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  Navbar,
+  HeadSection,
+  Insights,
+  VisionSection,
+  UpcomingSection,
+  Footer,
+} from "./components";
 
-function App() {
+const breakpoint = `< No Supported Breakpoints for Laptops & Tablets - Only Mobile("640px") &
+Desktop("1920px") />`;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="hidden md:flex justify-center content-center text-center w-full h-screen lg:hidden">
+        <div className="w-full h-96 m-auto text-8xl font-extrabold italic">
+          {breakpoint}
+        </div>
+      </div>
+      <Navbar />
+      <HeadSection />
+      <Insights />
+      <VisionSection />
+      <UpcomingSection />
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
