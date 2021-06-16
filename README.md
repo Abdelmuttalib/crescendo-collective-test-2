@@ -1,4 +1,4 @@
-# Test
+# Test 2
 # React & styled with Tailwind Css
 
 ## Supported Breakpoints for Mobile(640px) & Desktop(1920px) relating to the design photos.
