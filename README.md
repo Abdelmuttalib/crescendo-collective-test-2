@@ -7,4 +7,4 @@
 ![deskbreak](https://user-images.githubusercontent.com/54845047/122142169-768d3200-ce81-11eb-8260-c47588df6f58.png)
 
 ## Mobile - 640px
-![Screen Shot 2021-06-16 at 09 10 04-fullpage](https://user-images.githubusercontent.com/54845047/122143038-2e6f0f00-ce83-11eb-9b54-ba74bf29ae7f.png)
+![Screen Shot 2021-06-16 at 09 21 46-fullpage](https://user-images.githubusercontent.com/54845047/122143625-6034a580-ce84-11eb-9d82-586e18a4664b.png)
